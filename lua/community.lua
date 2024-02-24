@@ -26,7 +26,6 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.media.drop-nvim" },
   { import = "astrocommunity.media.presence-nvim" },
-  { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.editing-support.yanky-nvim" },
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
