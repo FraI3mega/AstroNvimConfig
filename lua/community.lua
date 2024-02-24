@@ -32,6 +32,5 @@ return {
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
-  { import = "astrocommunity.note-taking.obsidian-nvim" },
   -- import/override with your plugins folder
 }
