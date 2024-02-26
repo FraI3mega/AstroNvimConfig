@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.editing-support.comment-box-nvim" },
   { import = "astrocommunity.editing-support.dial-nvim" },
+  { import = "astrocommunity.editing-support.suda-vim" },
   { import = "astrocommunity.editing-support.yanky-nvim" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
