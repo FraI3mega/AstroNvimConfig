@@ -18,6 +18,7 @@ return {
   { import = "astrocommunity.editing-support.yanky-nvim" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
+  { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.git.gist-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.media.drop-nvim" },
