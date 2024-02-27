@@ -35,6 +35,7 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.scrolling.cinnamon-nvim" },
+  { import = "astrocommunity.terminal-integration.nvim-unception" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
