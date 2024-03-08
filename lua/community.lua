@@ -20,6 +20,7 @@ return {
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.git.gist-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
+  { import = "astrocommunity.markdown-and-latex.peek-nvim" },
   { import = "astrocommunity.media.drop-nvim" },
   { import = "astrocommunity.media.image-nvim" },
   { import = "astrocommunity.media.presence-nvim" },

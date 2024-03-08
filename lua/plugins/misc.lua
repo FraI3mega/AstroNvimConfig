@@ -4,15 +4,9 @@ return {
     dependencies = "RishabhRD/popfix",
     cmd = { "Cheat", "CheatWithoutComments" },
   },
-  {
-    "2kabhishek/nerdy.nvim",
-    dependencies = {
-      "stevearc/dressing.nvim",
-      "nvim-telescope/telescope.nvim",
-    },
-    cmd = "Nerdy",
-  },
   { "wakatime/vim-wakatime", lazy = false },
+  { "ziontee113/icon-picker.nvim" },
+  cmd = { "IconPickerNormal", "IconPickerYank" },
   {
     "2kabhishek/tdo.nvim",
     dependencies = "nvim-telescope/telescope.nvim",
