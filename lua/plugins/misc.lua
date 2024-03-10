@@ -5,8 +5,7 @@ return {
     cmd = { "Cheat", "CheatWithoutComments" },
   },
   { "wakatime/vim-wakatime", lazy = false },
-  { "ziontee113/icon-picker.nvim" },
-  cmd = { "IconPickerNormal", "IconPickerYank" },
+  { "ziontee113/icon-picker.nvim", cmd = { "IconPickerNormal", "IconPickerYank" } },
   {
     "2kabhishek/tdo.nvim",
     dependencies = "nvim-telescope/telescope.nvim",
