@@ -6,7 +6,7 @@
   "SchemaStore.nvim": { "branch": "main", "commit": "b788bde023f9fbc2eb86e89d32c0bf98a60ae406" },
   "aerial.nvim": { "branch": "master", "commit": "31fbd369bbbeb53080c4b1ead9e76be322725ef5" },
   "alpha-nvim": { "branch": "main", "commit": "41283fb402713fc8b327e60907f74e46166f4cfd" },
-  "astrocommunity": { "branch": "v4", "commit": "51dd8463135d8db8695a1837a13ba3bc0a21043d" },
+  "astrocommunity": { "branch": "v4", "commit": "1507af52f11916915d3834c2f6c143c98e9945e1" },
   "astrocore": { "branch": "main", "commit": "72281ac11f0e784a7c642075a5497199f9bd6e1f" },
   "astrolsp": { "branch": "main", "commit": "cd9b51f260da4e16c723d9461740b605ec045cc2" },
   "astrotheme": { "branch": "main", "commit": "903e2cb5d673e35803a6b160e68c1ca4b1c79109" },
