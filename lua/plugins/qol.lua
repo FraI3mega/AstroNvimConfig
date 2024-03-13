@@ -57,4 +57,10 @@ return {
     cmd = "PasteImage",
     -- suggested keymap
   },
+  {
+    "mcauley-penney/visual-whitespace.nvim",
+    event = "BufEnter",
+    config = true,
+    opts = { highlight = { link = "Visual" } },
+  },
 }
