@@ -45,6 +45,7 @@ return {
     opts = {
       watermark = "", -- (Optional) you can custom your own watermark, but if you don't like it, just set it to ""
       save_path = "./code.png",
+      has_breadcrumbs = true,
     },
   },
   {
