@@ -21,13 +21,10 @@ return {
     lazy = false,
   },
   {
-    "stefanlogue/hydrate.nvim",
-    -- This installs the latest stable release.
-    -- Set to false or omit to install the latest development version
-    version = "*",
+    "jsongerber/thanks.nvim",
+    event = "VeryLazy",
     opts = {
-      -- See below for config options
-      persist_timer = true,
+      plugin_manager = "lazy",
     },
   },
 }
