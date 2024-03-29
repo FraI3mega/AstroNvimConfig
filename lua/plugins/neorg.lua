@@ -1,36 +1,36 @@
-local M = {
+return {
   "nvim-neorg/neorg",
-  ft = "norg",
   dependencies = {
-    "nvim-treesitter/nvim-treesitter",
-    "nvim-treesitter/nvim-treesitter-textobjects",
-    "nvim-cmp",
-    "nvim-lua/plenary.nvim",
-  },
-  build = ":Neorg sync-parsers",
-  cmd = "Neorg",
-}
-local modules = {
-  ["core.defaults"] = {},
-  ["core.completion"] = { config = { engine = "nvim-cmp", name = "[Norg]" } },
-  ["core.integrations.nvim-cmp"] = {},
-  ["core.concealer"] = { config = { icon_preset = "diamond" } },
-  ["core.keybinds"] = {
-    -- https://github.com/nvim-neorg/neorg/blob/main/lua/neorg/modules/core/keybinds/keybinds.lua
-    config = {
-      default_keybinds = true,
-      neorg_leader = "<Leader><Leader>",
+    {
+      "vhyrro/luarocks.nvim",
+      priority = 100000, -- We'd like this plugin to load first out of the rest
+      config = true,
     },
   },
-  ["core.dirman"] = {
-    config = {
-      workspaces = {
-        Notes = "~/Notes",
+  lazy = false,
+  opts = {
+    load = {
+      ["core.defaults"] = {}, -- Loads default behaviour
+      ["core.concealer"] = { config = { icon_preset = "diamond" } }, -- Adds pretty icons to your documents
+      ["core.keybinds"] = {
+        config = {
+          default_keybinds = true,
+          neorg_leader = "<Leader><Leader>",
+        },
+      }, -- Adds default keybindings
+      ["core.completion"] = {
+        config = {
+          engine = "nvim-cmp",
+        },
+      }, -- Enables support for completion plugins
+      ["core.journal"] = {}, -- Enables support for the journal module
+      ["core.dirman"] = { -- Manages Neorg workspaces
+        config = {
+          workspaces = {
+            Notes = "~/Notes",
+          },
+        },
       },
     },
   },
 }
-M.opts = {
-  load = modules,
-}
-return M
