@@ -69,7 +69,6 @@ return {
         -- this is useful for naming menus
         ["<Leader>b"] = { name = "Buffers" },
         ["<Leader>z"] = { ":ZenMode<cr>", desc = "Toggle Zen Mode" },
-        ["<Leader>H"] = { ":HydrateNow<cr>", desc = "Hydrate Now" },
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
