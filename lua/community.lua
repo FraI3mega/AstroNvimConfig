@@ -10,7 +10,6 @@ return {
   { import = "astrocommunity.code-runner.compiler-nvim" },
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.editing-support.dial-nvim" },
   { import = "astrocommunity.editing-support.suda-vim" },
   { import = "astrocommunity.editing-support.yanky-nvim" },
@@ -43,5 +42,6 @@ return {
   { import = "astrocommunity.terminal-integration.nvim-unception" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.utility.noice-nvim" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim" },
   -- import/override with your plugins folder
 }
