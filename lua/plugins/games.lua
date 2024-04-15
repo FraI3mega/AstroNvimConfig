@@ -17,4 +17,12 @@ return {
     "eandrju/cellular-automaton.nvim",
     cmd = "CellularAutomaton",
   },
+  {
+    "willothy/strat-hero.nvim",
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+    },
+    config = true,
+    cmd = "StratHero",
+  },
 }
