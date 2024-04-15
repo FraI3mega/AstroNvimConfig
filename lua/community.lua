@@ -9,7 +9,7 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.code-runner.compiler-nvim" },
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
-  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  -- { import = "astrocommunity.diagnostics.trouble-nvim" }, NOTE: until v3 released
   { import = "astrocommunity.editing-support.dial-nvim" },
   { import = "astrocommunity.editing-support.suda-vim" },
   { import = "astrocommunity.editing-support.yanky-nvim" },
@@ -29,6 +29,7 @@ return {
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.media.presence-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.fish" },
   { import = "astrocommunity.pack.html-css" },
