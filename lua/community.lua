@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.code-runner.compiler-nvim" },
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
+  { import = "astrocommunity.debugging.nvim-bqf" },
   -- { import = "astrocommunity.diagnostics.trouble-nvim" }, NOTE: until v3 released
   { import = "astrocommunity.editing-support.dial-nvim" },
   { import = "astrocommunity.editing-support.suda-vim" },
