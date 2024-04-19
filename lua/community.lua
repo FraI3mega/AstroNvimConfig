@@ -28,7 +28,7 @@ return {
   { import = "astrocommunity.media.drop-nvim" },
   { import = "astrocommunity.media.image-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
-  { import = "astrocommunity.media.presence-nvim" },
+  { import = "astrocommunity.media.cord-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.pack.bash" },
