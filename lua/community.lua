@@ -17,7 +17,7 @@ return {
   { import = "astrocommunity.editing-support.undotree" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
-  { import = "astrocommunity.file-explorer.oil-nvim" },
+  -- { import = "astrocommunity.file-explorer.oil-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.lsp.garbage-day-nvim" },
