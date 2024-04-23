@@ -7,7 +7,7 @@ return {
   {
     "ziontee113/icon-picker.nvim",
     cmd = { "IconPickerNormal", "IconPickerYank", "IconPickerInsert" },
-    config = { disable_legacy_commands = true },
+    opts = { disable_legacy_commands = true },
     keys = { { "<C-i>", "<cmd>IconPickerInsert<cr>", mode = "i", desc = "Insert from icon picker" } },
   },
   {
