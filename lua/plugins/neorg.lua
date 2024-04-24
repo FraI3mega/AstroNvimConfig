@@ -9,7 +9,7 @@ return {
       config = true,
     },
   },
-  lazy = false,
+  -- lazy = false,
   opts = {
     load = {
       ["core.defaults"] = {}, -- Loads default behaviour
