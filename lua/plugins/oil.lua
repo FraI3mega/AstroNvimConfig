@@ -97,9 +97,9 @@ return {
           signcolumn = "yes:2",
         },
         git = {
-          add = true,
-          mv = true,
-          rm = true,
+          -- add = true,
+          -- mv = true,
+          -- rm = true, --BUG: until it is fixed
         },
         skip_confirm_for_simple_edits = true,
         experimental_watch_for_changes = true,
