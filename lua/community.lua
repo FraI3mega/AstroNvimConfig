@@ -41,6 +41,7 @@ return {
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.keybinding.hydra-nvim" },
   { import = "astrocommunity.scrolling.cinnamon-nvim" },
   { import = "astrocommunity.terminal-integration.nvim-unception" },
   { import = "astrocommunity.test.neotest" },
