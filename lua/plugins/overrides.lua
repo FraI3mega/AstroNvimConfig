@@ -17,14 +17,16 @@ return {
       end,
     },
   },
-}, {
-  "folke/zen-mode.nvim",
-  opts = {
-    plugins = {
-      kitty = {
-         enabled = true,
-        font = "+4", -- font size increment
+  {
+    "folke/zen-mode.nvim",
+    opts = {
+      plugins = {
+        kitty = {
+          enabled = true,
+          font = "+2", -- font size increment
+        },
       },
     },
   },
+  { "mrjones2014/smart-splits.nvim", opts = { multiplexer_integration = "kitty" } },
 }
