@@ -26,7 +26,8 @@ return {
     dependencies = "nvim-telescope/telescope.nvim", -- optional
     cmd = { "ScissorsAddNewSnippet", "ScissorsEditSnippet" },
     opts = {
-      snippetDir = "./snippets",
+      snippetDir = vim.fn.stdpath "config" .. "/snippets",
+      jsonFormatter = "jq",
     },
   },
   {
