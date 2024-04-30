@@ -76,8 +76,6 @@ return {
           end,
           desc = "Pick to close",
         },
-        ["<Leader>xt"] = { ":TodoTrouble<cr>", desc = "List project todos" },
-        ["<Leader>xQ"] = { ":TodoQuickFix<cr>", desc = "List quickfix todos" },
         -- tables with the `name` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         ["<Leader>b"] = { name = "Buffers" },
