@@ -22,6 +22,7 @@ return {
       virtual_text = true,
       underline = true,
     },
+    filetypes = { pattern = { [".*/hypr/.*%.conf"] = "hyprlang" } },
     -- vim options can be configured here
     options = {
       opt = { -- vim.opt.<key>
@@ -35,6 +36,18 @@ return {
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
         -- This can be found in the `lua/lazy_setup.lua` file
+        rustaceanvim = {
+          -- ...
+          server = {
+            ---@param project_root string Path to the project root
+            settings = function(project_root)
+              local ra = require "rustaceanvim.config.server"
+              return ra.load_rust_analyzer_settings(project_root, {
+                settings_file_pattern = "rust-analyzer.json",
+              })
+            end,
+          },
+        },
       },
     },
     -- Mappings can be configured through AstroCore as well.
