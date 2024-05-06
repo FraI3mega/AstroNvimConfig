@@ -19,6 +19,7 @@ return {
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.git.neogit" },
+  { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
   { import = "astrocommunity.lsp.garbage-day-nvim" },
   { import = "astrocommunity.lsp.actions-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
