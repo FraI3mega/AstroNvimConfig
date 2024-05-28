@@ -6,7 +6,9 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.color.twilight-nvim" },
+  { import = "astrocommunity.color.huez-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.neofusion-nvim" },
   { import = "astrocommunity.code-runner.compiler-nvim" },
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
   { import = "astrocommunity.debugging.nvim-bqf" },
