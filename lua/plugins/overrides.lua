@@ -27,4 +27,9 @@ return {
       },
     },
   },
+  {
+    "vyfor/cord.nvim",
+    display = { workspace_blacklist = { "franek" } },
+    idle = { timeout = 900000 },
+  },
 }
