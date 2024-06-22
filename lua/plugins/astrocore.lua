@@ -22,7 +22,7 @@ return {
       virtual_text = true,
       underline = true,
     },
-    filetypes = { pattern = { [".*/hypr/.*%.conf"] = "hyprlang" } },
+    filetypes = {},
     -- vim options can be configured here
     options = {
       opt = { -- vim.opt.<key>
