@@ -1,7 +1,4 @@
 return {
-  { "mistricky/codesnap.nvim", opts = {
-    save_path = "~/Pictures/Screenshots/Code",
-  } },
   {
     "okuuva/auto-save.nvim",
     opts = {

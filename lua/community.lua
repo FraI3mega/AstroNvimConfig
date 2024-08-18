@@ -11,7 +11,7 @@ return {
   { import = "astrocommunity.colorscheme.neofusion-nvim" },
   { import = "astrocommunity.code-runner.compiler-nvim" },
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
-  { import = "astrocommunity.debugging.nvim-bqf" },
+  { import = "astrocommunity.quickfix.nvim-bqf" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.editing-support.dial-nvim" },
   { import = "astrocommunity.editing-support.suda-vim" },
