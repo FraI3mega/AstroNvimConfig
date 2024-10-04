@@ -27,6 +27,12 @@ return {
   {
     "vyfor/cord.nvim",
     display = { workspace_blacklist = { "franek" } },
-    idle = { timeout = 900000 },
+    idle = { timeout = 300000 },
   },
+  {
+    "NeogitOrg/neogit",
+    opts = {
+      graph_style = "unicode"
+    }
+  }
 }
