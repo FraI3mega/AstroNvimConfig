@@ -43,7 +43,20 @@ return {
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
     config = {
-      -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      nixd = {
+        settings = {
+          nixd = {
+            options = {
+              home_manager = {
+                expr = "(import <home-manager/modules> { configuration = ~/NixOS-Dotfiles/modules/home.nix; pkgs = import <nixpkgs> {}; }).options",
+              },
+              nixos = {
+                expr = '(builtins.getFlake ("git+file://" + toString ./.)).nixosConfigurations.whitey.options',
+              },
+            },
+          },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {
