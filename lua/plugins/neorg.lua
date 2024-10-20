@@ -2,13 +2,7 @@ return {
   "nvim-neorg/neorg",
   ft = "norg",
   cmd = "Neorg",
-  dependencies = {
-    {
-      "vhyrro/luarocks.nvim",
-      priority = 1000, -- We'd like this plugin to load first out of the rest
-      config = true,
-    },
-  },
+  dependencies = { "nvim-treesitter/nvim-treesitter" },
   -- lazy = false,
   opts = {
     load = {
@@ -27,8 +21,9 @@ return {
       ["core.dirman"] = { -- Manages Neorg workspaces
         config = {
           workspaces = {
-            Notes = "~/Notes",
+            notes = "~/Documents/notes",
           },
+          default_workspace = "notes",
         },
       },
       ["core.esupports.metagen"] = { config = { type = "auto", update_date = true } },

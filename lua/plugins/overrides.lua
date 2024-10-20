@@ -2,7 +2,6 @@ return {
   {
     "okuuva/auto-save.nvim",
     opts = {
-      execution_message = { enabled = false },
       condition = function(buf)
         local fn = vim.fn
         local utils = require "auto-save.utils.data"
@@ -32,7 +31,8 @@ return {
   {
     "NeogitOrg/neogit",
     opts = {
-      graph_style = "unicode"
-    }
-  }
+      graph_style = "unicode",
+    },
+  },
+  { "mrjones2014/smart-splits.nvim", lazy = false, build = "./kitty/install-kittens.bash" },
 }
